@@ -1,6 +1,6 @@
 import os
-source1 = "train"
-dest11 = "validation"
+source1 = "dataset/train"
+dest11 = "dataset/validation"
 folders = os.listdir(source1)
 from os import makedirs
 import shutil
