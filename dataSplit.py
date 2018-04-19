@@ -8,7 +8,7 @@ import numpy as np
 import random
 for f in folders:
     print(f)
-    # makedirs(dest11+'/'+f)
+    makedirs(dest11+'/'+f)
     files = os.listdir(source1+'/'+f)
     print(files)
 
